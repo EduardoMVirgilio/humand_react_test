@@ -1,0 +1,16 @@
+#search {
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+  gap: 1rem;
+  padding: 0.25rem;
+  & button {
+    padding: 0.75rem 0.25rem;
+    background-color: snow;
+    color: teal;
+    font-weight: 700;
+  }
+  & input {
+    flex: 1;
+  }
+}
